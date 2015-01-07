@@ -1,0 +1,36 @@
+.icons a:active {
+ color: black;
+}
+
+.web-link:active {
+  background-color: black;
+  color: white;
+}
+
+.view-live:active {
+  color: gray;
+}
+
+.arrow:active {
+  color: black;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .arrow:hover {
+    color: black;
+  }
+
+  .web-link:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .view-live:hover {
+    color: gray;
+  }
+
+  .icons a:hover {
+    color: black;
+  }
+}

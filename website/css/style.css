@@ -1,0 +1,270 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+
+body {
+  font-family: "bryant-light";
+}
+
+header {
+  width: 100%;
+}
+
+.logo {
+  width: 30%;
+  margin: 0 35%;
+}
+
+nav {
+  display: block;
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+
+.icons {
+  text-align: center;
+  font-size: 1.75em;
+}
+
+.icons li {
+  padding: 0 .25em;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  margin: 1em 0 1em 0;
+}
+
+.list {
+  border-bottom: solid .15em;
+  width: 80%;
+  margin: 0 10% 5% 10%;
+}
+
+.web-link {
+  color: black;
+  text-align: center;
+  font-size: 1.25em;
+  margin: 1.25em 0 1em 0;
+  display: block;
+  padding: .25em 0;
+}
+
+.gallery-item {
+    height: auto;
+    width: 80%;
+    margin: 2em auto;
+    position: relative;
+}
+
+.gallery-item-2 {
+    height: auto;
+    width: 80%;
+    margin: 2em auto;
+    position: relative;
+}
+
+.gallery-item img {
+    width: 100%;
+}
+
+.gallery-item-2 img {
+    width: 100%;
+}
+
+.gallery-item:hover .img-title {
+    opacity: .8;
+}
+
+.gallery-item-2:hover .img-title {
+    opacity: .8;
+}
+
+.img-title {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 3em;
+    text-align: center;
+    opacity: 0;
+    display: none;
+    background-color: white;
+}
+
+.img-title h5 {
+  position: absolute;
+  text-transform: uppercase;
+  color: black;
+  top: 35%;
+  width: 100%;
+  text-align: center;
+}
+
+.element img {
+  display: block;
+  width: 14.0625em;
+  height: 14.0625em;
+  margin: 5% auto;
+  border: solid .15em gray;
+}
+
+.thumbnails {
+  display: block;
+  width: 80%;
+  margin: 5% 10%;
+  overflow: hidden;
+}
+
+.enclave-img {
+  width: 100%;
+  margin: 0 auto 5% auto;
+}
+
+.view-live {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 1em 0;
+  font-size: 1.25em;
+  display: block;
+  margin: 1em 0;
+  font-weight: bolder;
+}
+
+.description {
+  font-family: 'afta-sans';
+  letter-spacing: .075em;
+  width: 60%;
+  margin: 1.5em 20%;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+.arrow {
+  font-size: 2em;
+  margin-left: 1em;
+}
+
+@media only screen and (min-width: 30em) {
+
+  header {
+      overflow: hidden;
+    }
+
+  .logo {
+      margin: 0 46%;
+      max-width: 8%;
+    }
+
+  .gallery {
+      width: 50em;
+      margin: .5em auto;
+      overflow: hidden;
+  }
+
+  .gallery-item {
+      height: auto;
+      width: 45%;
+      float: left;
+      margin-bottom: 2em;
+      position: relative;
+  }
+
+  .gallery-item-2 {
+      height: auto;
+      width: 45%;
+      float: right;
+      margin-bottom: 2em;
+      position: relative;
+  }
+
+  .gallery-item:first-child {
+     margin-right: 2.762430939%;
+   }
+
+  .gallery-item img {
+      width: 100%;
+  }
+
+  .gallery-item-2 img {
+      width: 100%;
+  }
+
+  h1 {
+    font-size: 3em;
+    color: black;
+  }
+
+  .web-link {
+    font-size: 2em;
+    display: block;
+    text-align: center;
+  }
+
+  .view-live {
+    background-color: black;
+    padding: 1em 1em 1em 3em;
+    display: block;
+    width: 15em;
+  }
+
+.description {
+  width: 45%;
+  margin: 1.5em 27.5%;
+  font-size: 1.25em;
+  line-height: 1.25em;
+}
+
+  .enclave-img {
+    width: 80%;
+    margin: 0 10% 5% 10%;
+  }
+
+  .arrow {
+    margin-left: 8.35em;
+  }
+}
+
+@media only screen and (min-width: 30em) and (max-width: 48em) {
+
+  .element img {
+    display: block;
+    width: 5.5em;
+    height: 5.5em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 60em) {
+
+  .element img {
+    display: block;
+    width: 9em;
+    height: 9em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 60em) and (max-width: 70em) {
+
+  .element img {
+    display: block;
+    width: 11em;
+    height: 11em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
