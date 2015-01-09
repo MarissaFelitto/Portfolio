@@ -1,4 +1,4 @@
-/*  SECTIONS  */
+/*/*  SECTIONS  */
 .section {
   clear: both;
   padding: 0px;
@@ -42,13 +42,13 @@
 
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 43.75em) {
   .col {
     margin: 1% 0 1% 0;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 43.75em) {
   .element {
     width:100%;
   }
@@ -65,4 +65,3 @@
     width: 100%;
   }
 }
-

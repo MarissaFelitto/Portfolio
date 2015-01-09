@@ -12,8 +12,10 @@ header {
 }
 
 .logo {
-  width: 30%;
-  margin: 0 35%;
+  display: block;
+  width: 100%;
+  max-width: 8em;
+  margin: 0 auto;
 }
 
 nav {
@@ -113,8 +115,8 @@ h1 {
 
 .element img {
   display: block;
-  width: 14.0625em;
-  height: 14.0625em;
+  width: 14.5em;
+  height: 14.5em;
   margin: 5% auto;
   border: solid .15em gray;
 }
@@ -156,15 +158,10 @@ h1 {
   margin-left: 1em;
 }
 
-@media only screen and (min-width: 30em) {
+@media only screen and (min-width: 48em) {
 
   header {
       overflow: hidden;
-    }
-
-  .logo {
-      margin: 0 46%;
-      max-width: 8%;
     }
 
   .gallery {
@@ -219,12 +216,12 @@ h1 {
     width: 15em;
   }
 
-.description {
-  width: 45%;
-  margin: 1.5em 27.5%;
-  font-size: 1.25em;
-  line-height: 1.25em;
-}
+  .description {
+    width: 45%;
+    margin: 1.5em 27.5%;
+    font-size: 1.25em;
+    line-height: 1.25em;
+  }
 
   .enclave-img {
     width: 80%;
@@ -236,18 +233,22 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 30em) and (max-width: 48em) {
+@media only screen and (min-width: 43.75em) and (max-width: 52em) {
 
   .element img {
     display: block;
-    width: 5.5em;
-    height: 5.5em;
+    width: 7em;
+    height: 7em;
     margin: 5% auto;
     border: solid .15em gray;
   }
+
+  .gallery {
+    width: 90%;
+  }
 }
 
-@media only screen and (min-width: 48em) and (max-width: 60em) {
+@media only screen and (min-width: 52em) and (max-width: 60em) {
 
   .element img {
     display: block;
@@ -256,6 +257,7 @@ h1 {
     margin: 5% auto;
     border: solid .15em gray;
   }
+
 }
 
 @media only screen and (min-width: 60em) and (max-width: 70em) {
@@ -264,6 +266,17 @@ h1 {
     display: block;
     width: 11em;
     height: 11em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 70em) and (max-width: 80em) {
+
+    .element img {
+    display: block;
+    width: 13.25em;
+    height: 13.25em;
     margin: 5% auto;
     border: solid .15em gray;
   }
