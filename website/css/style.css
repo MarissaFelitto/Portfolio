@@ -18,10 +18,33 @@ header {
   margin: 0 auto;
 }
 
-nav {
+footer {
   display: block;
   width: 80%;
   margin: 0 10% 5% 10%;
+}
+
+nav {
+  margin: 3em 0;
+  padding: 1.25em 0;
+  border-top: solid .15em black;
+  border-bottom: solid .15em black;
+}
+
+nav li {
+  display: inline;
+  margin: .5em 1em;
+  font-family: "afta-sans";
+  letter-spacing: .075em;
+  font-size: 1em;
+}
+
+nav a{
+  color: black;
+}
+
+ul {
+   text-align: center;
 }
 
 .icons {
@@ -158,6 +181,15 @@ h1 {
   margin-left: 1em;
 }
 
+@media only screen and (min-width: 14em) and (max-width: 18em) {
+
+  nav li {
+    display: block;
+    font-size: 1.15em;
+    margin: .5em 0;
+  }
+}
+
 @media only screen and (min-width: 48em) {
 
   header {
@@ -230,6 +262,11 @@ h1 {
 
   .arrow {
     margin-left: 8.35em;
+  }
+
+  nav li {
+    font-size: 1.35em;
+    margin: .5em 2em;
   }
 }
 
