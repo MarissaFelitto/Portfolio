@@ -1,21 +1,19 @@
 $(document).ready(function() {
 
     $('.gallery-item').hover(function() {
-        $(this).find('.img-title').fadeIn(300);
+        $(this).find('.img-title').fadeOut(200);
     }, function() {
-        $(this).find('.img-title').fadeOut(100);
+        $(this).find('.img-title').fadeIn(300);
     });
-
 });
 
 $(document).ready(function() {
 
     $('.gallery-item-2').hover( function() {
-        $(this).find('.img-title').fadeIn(300);
+        $(this).find('.img-title').fadeOut(200);
     }, function() {
-        $(this).find('.img-title').fadeOut(100);
+        $(this).find('.img-title').fadeIn(300);
     });
-
 });
 
 $(".gallery-item").click(function(){

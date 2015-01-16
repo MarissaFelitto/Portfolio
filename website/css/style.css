@@ -39,7 +39,7 @@ nav li {
   font-size: 1em;
 }
 
-nav a{
+nav a {
   color: black;
 }
 
@@ -106,31 +106,21 @@ h1 {
     width: 100%;
 }
 
-.gallery-item:hover .img-title {
-    opacity: .8;
-}
-
-.gallery-item-2:hover .img-title {
-    opacity: .8;
-}
-
 .img-title {
-    position: absolute;
-    top: 0;
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    font-size: 3em;
-    text-align: center;
-    opacity: 0;
-    display: none;
-    background-color: white;
+  position: absolute;
+  top: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 3em;
+  text-align: center;
+  background-color: black;
 }
 
 .img-title h5 {
   position: absolute;
   text-transform: uppercase;
-  color: black;
+  color: white;
   top: 35%;
   width: 100%;
   text-align: center;
@@ -181,12 +171,39 @@ h1 {
   margin-left: 1em;
 }
 
-@media only screen and (min-width: 14em) and (max-width: 18em) {
+@media only screen and (min-width: 13em) and (max-width: 18em) {
 
   nav li {
     display: block;
     font-size: 1.15em;
     margin: .5em 0;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  .element img {
+    display: block;
+    width: 8em;
+    height: 8em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+
+  .img-title {
+    font-size: 1.55em;
+  }
+
+  .icons {
+  font-size: 1.25em;
+  }
+}
+
+@media only screen and (min-width: 30em) and (max-width: 48em) {
+
+  .img-title{
+    font-size: 5em;
   }
 }
 
@@ -206,7 +223,6 @@ h1 {
       height: auto;
       width: 45%;
       float: left;
-      margin-bottom: 2em;
       position: relative;
   }
 
@@ -214,13 +230,12 @@ h1 {
       height: auto;
       width: 45%;
       float: right;
-      margin-bottom: 2em;
       position: relative;
   }
 
   .gallery-item:first-child {
      margin-right: 2.762430939%;
-   }
+  }
 
   .gallery-item img {
       width: 100%;
@@ -272,6 +287,17 @@ h1 {
 
 @media only screen and (min-width: 43.75em) and (max-width: 52em) {
 
+.element img {
+    display: block;
+    width: 7em;
+    height: 7em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 48em) and (max-width: 52em) {
+
   .element img {
     display: block;
     width: 7em;
@@ -294,7 +320,6 @@ h1 {
     margin: 5% auto;
     border: solid .15em gray;
   }
-
 }
 
 @media only screen and (min-width: 60em) and (max-width: 70em) {
