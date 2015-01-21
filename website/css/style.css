@@ -309,6 +309,10 @@ h1 {
   .gallery {
     width: 90%;
   }
+
+   .img-title{
+    font-size: 3.75em;
+  }
 }
 
 @media only screen and (min-width: 52em) and (max-width: 60em) {
