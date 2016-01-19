@@ -27,6 +27,7 @@
 
   .web-link:hover {
     background-color: black;
+    padding: .15em 0;
     color: white;
   }
 
@@ -43,5 +44,3 @@
   }
 
 }
-
-

@@ -141,8 +141,8 @@ h1 {
 }
 
 .ux-img {
-  width: 100%;
-  margin: 0 auto 5% auto;
+  width: 60%;
+  margin: 0 20% 5% 20%;
 }
 
 .view-live {
@@ -169,10 +169,15 @@ h1 {
   font-size: 2em;
   margin-left: 1em;
 }
-
+ 
 .desktop-img, .mobile-img, .mobile-img-2 {
   width: 60%;
-  margin: 0 20%;
+  margin: 5% 20%;
+}
+
+.border {
+  border: solid;
+  border-width: 1px;
 }
 
 @media only screen and (min-width: 13em) and (max-width: 18em) {
@@ -185,14 +190,6 @@ h1 {
 
   h1 {
     font-size: 1em;
-  }
-
-  .element img {
-    display: block;
-    width: 8em;
-    height: 8em;
-    margin: 5% auto;
-    border: solid .15em gray;
   }
 
   .img-title {
@@ -274,11 +271,6 @@ h1 {
     line-height: 1.25em;
   }
 
-  .ux-img {
-    width: 80%;
-    margin: 0 10% 5% 10%;
-  }
-
   .arrow {
     margin-left: 8.35em;
   }
@@ -293,15 +285,15 @@ h1 {
     margin: 0 5%;
   }
 
-  .mobile-img {
-    width: 33.333%;
+   .mobile-img {
+    width: 29.333333%;
     float: left;
     padding: 0 1%;
-    margin: 5% auto;
+    margin: 5% 2%;
   }
   
   .mobile-img:last-child {
-    width: 33.333%;
+    width: 29.333%;
     float: right;
     padding: 0 1%;
   }
@@ -340,14 +332,6 @@ h1 {
 
 @media only screen and (min-width: 48em) and (max-width: 52em) {
 
-  .element img {
-    display: block;
-    width: 7em;
-    height: 7em;
-    margin: 5% auto;
-    border: solid .15em gray;
-  }
-
   .gallery {
     width: 90%;
   }
@@ -379,12 +363,45 @@ h1 {
   }
 }
 
-@media only screen and (min-width: 70em) and (max-width: 80em) {
+@media only screen and (min-width: 70em) and (max-width: 90em) {
 
     .element img {
     display: block;
     width: 13.25em;
     height: 13.25em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 80em) and (max-width: 110em) {
+
+    .element img {
+    display: block;
+    width: 14.25em;
+    height: 14.25em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 110em) and (max-width: 130em) {
+
+    .element img {
+    display: block;
+    width: 20.25em;
+    height: 20.25em;
+    margin: 5% auto;
+    border: solid .15em gray;
+  }
+}
+
+@media only screen and (min-width: 130em) {
+
+    .element img {
+    display: block;
+    width: 23.25em;
+    height: 23.25em;
     margin: 5% auto;
     border: solid .15em gray;
   }
